@@ -19,7 +19,7 @@ export default function HistoriasPage() {
   const [historias, setHistorias] = useState<Publicacao[]>([
     {
       titulo: 'Um Milagre em Minha Vida',
-      conteudo: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      conteudo: 'Há alguns meses, enfrentei um momento muito difícil em minha vida. Estava passando por problemas de saúde e sentia que não havia saída. Em meio à dor, orei e pedi a Deus por um milagre. Com o tempo, fui sentindo paz no coração e, para minha surpresa, os exames começaram a mostrar melhoras inesperadas. Hoje estou curado e sou muito grato a Deus por esse milagre. Compartilho minha história para fortalecer a fé de quem está passando por dificuldades. Nunca perca a esperança!',
       autor: 'João Silva',
       data: '15/02/2024',
       anonimo: false,
