@@ -23,6 +23,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Histórias</title>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV6QMXNCP9"></script>
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-DV6QMXNCP9');
+        ` }} />
+      </head>
       <body className={`${inter.variable} ${merriweather.variable} font-sans bg-background min-h-screen`}>
         <OracoesProvider>
           <Navbar />
